@@ -9,6 +9,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/Songdaoyu/cancer1/refs/heads
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # App layout
 app.layout = html.Div([
