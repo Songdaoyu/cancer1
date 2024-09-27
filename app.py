@@ -5,7 +5,7 @@ import plotly.express as px
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv('survey_lung_cancer.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/Songdaoyu/cancer1/refs/heads/main/survey%20lung%20cancer.csv')
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
