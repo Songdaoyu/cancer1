@@ -7,7 +7,7 @@ from dash.exceptions import PreventUpdate
 import os
 
 # Load the data
-df = pd.read_csv('survey lung cancer.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/Songdaoyu/cancer1/refs/heads/main/survey%20lung%20cancer.csv')
 
 # Convert binary columns to numeric
 binary_columns = ['SMOKING', 'YELLOW_FINGERS', 'ANXIETY', 'PEER_PRESSURE', 'CHRONIC DISEASE', 
